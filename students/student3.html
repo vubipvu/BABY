@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giới thiệu bản thân - Kaito</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/script.js" defer></script>
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .avatar {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        // Custom JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Custom JS loaded');
+            // Add any custom JavaScript here
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -22,15 +77,15 @@
         </nav>
     </header>
     
-    <section id="about">
+    <section id="about" class="section">
         <h2>Thông tin cá nhân</h2>
-        <img src="../assets/images/avatar.jpg" alt="Ảnh đại diện của LDT">
+        <img src="../assets/images/avatar.jpg" alt="Ảnh đại diện của LDT" class="avatar">
         <p>Họ tên: Luong Duc Tinh</p>
         <p>Sở thích: Lập trình, đọc sách, chơi game</p>
         <p>Định hướng nghề nghiệp: Fullstack Developer</p>
     </section>
     
-    <section id="education">
+    <section id="education" class="section">
         <h2>Quá trình học tập</h2>
         <ul>
             <li>Môn học quan trọng: Lập trình Web, Cấu trúc dữ liệu, Trí tuệ nhân tạo</li>
@@ -38,7 +93,7 @@
         </ul>
     </section>
     
-    <section id="skills">
+    <section id="skills" class="section">
         <h2>Kỹ năng đạt được</h2>
         <ul>
             <li>Lập trình: HTML, CSS, JavaScript, React, Node.js</li>
@@ -47,13 +102,13 @@
         </ul>
     </section>
     
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Dự án cá nhân</h2>
         <p><strong>Website bán hàng</strong>: Xây dựng bằng React và Firebase</p>
         <p><strong>Ứng dụng quản lý sinh viên</strong>: Dùng Node.js và MongoDB</p>
     </section>
     
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Liên hệ</h2>
         <p>Email: ldt20062003@example.com</p>
         <p>LinkedIn: <a href="https://linkedin.com/in/ldt3z03">linkedin.com/in/kaito</a></p>
