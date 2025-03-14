@@ -6,31 +6,49 @@
     <title>Hồ sơ cá nhân</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         .container {
-            width: 60%;
-            margin: auto;
+            width: 50%;
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-        h1, h2 {
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             text-align: center;
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h1 {
             color: #333;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
         }
         .profile-pic {
-            display: block;
-            margin: 10px auto;
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 3px solid #007bff;
+            border: 4px solid #007bff;
+            margin: 15px 0;
+            object-fit: cover;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 22px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin: 20px 0;
         }
         ul {
             list-style: none;
@@ -40,12 +58,22 @@
             background: #007bff;
             color: white;
             margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background: #0056b3;
         }
         .contact a {
             color: #007bff;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #0056b3;
         }
     </style>
 </head>
@@ -80,9 +108,9 @@
         </ul>
         
         <h2>Liên hệ</h2>
-        <p class="contact"><strong>Email:</strong> <a href="mailto:example@gmail.com">example@gmail.com</a></p>
-        <p class="contact"><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/example</a></p>
-        <p class="contact"><strong>GitHub:</strong> <a href="#">github.com/example</a></p>
+        <p class="contact"><strong>Email:</strong> <a href="mailto:hatonvinh251023@gmail.com">hatonvinh251023@gmail.com</a></p>
+        <p class="contact"><strong>LinkedIn:</strong> <a href="#">fb_Vinhhha.com/in/fb_Vinhhha.com</a></p>
+        <p class="contact"><strong>GitHub:</strong> <a href="#">github:06hatonvinh/example</a></p>
     </div>
 </body>
 </html>
